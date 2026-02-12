@@ -1,0 +1,70 @@
+{
+  "name": "night-city",
+  "displayName": "Night City",
+  "description": "A dark cyberpunk theme for Visual Studio Code. The neon lights still flicker, rain lies heavy on the asphalt, and your editor wakes up with you.",
+  "version": "0.0.5",
+  "publisher": "GibMalFeuerzeugBitte",
+  "icon": "Night_City_Screenshots/Icon.png",
+  "banner": {
+    "path": "banner.png",
+    "theme": "dark"
+  },
+  "galleryBanner": {
+    "color": "#0a0e27",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "cyberpunk",
+    "cyberpunk 2077",
+    "cyberpunk2077",
+    "neon",
+    "night",
+    "night-city",
+    "Night City",
+    "night-city",
+    "night city",
+    "edgerunner",
+    "netrunner",
+    "LED",
+    "cyber",
+    "synthwave",
+    "retrowave",
+    "vscode-theme",
+    "code-theme",
+    "dark theme",
+    "futuristic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night City",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-city-dark.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "night-city.netrunnerQuote",
+        "title": "Night City: Receive Netrunner Transmission"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GibMalFeuerzeugBitte/Night-City"
+  },
+  "license": "MIT"
+}
